@@ -1,0 +1,820 @@
+<html lang="en">
+<head>
+    <title>Nordic Labs</title>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="favicon.ico">
+    <meta name="theme-color" content="#2775FF">
+    <meta name="keywords" content="Nordic Labs">
+    <meta name="description" content="Nordic Labs">
+    <link rel="stylesheet" class="brk-direction-bootstrap" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" class="brk-skin-color" href="/static/css/brk-green.css">
+    <link class="brk-base-color" rel="stylesheet" href="/static/css/brk-base-color.css">
+    <link rel="stylesheet" class="brk-direction-offsets" href="/static/css/offsets.css">
+    <link class="brk-css-min" rel="stylesheet" href="/static/css/styles.min.css">
+    <link rel="stylesheet" href="/static/css/settings.css">
+    <link rel="stylesheet" href="/static/css/font-awesome.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="/static/js/jquery.min.js"></script>
+        <!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+    <link rel="stylesheet" href="/static/css/portfolio-categories.css">
+    <link id="css-google-fonts" href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Open+Sans:300,400,600,700" rel="stylesheet">
+    <meta id="AyzetPkcs11IsInstalled" content="Chrome-Extension" baseuri=""></head>
+
+<style>
+
+    h1, h2, h3, h4, h5, h6 {
+    color: black;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    outline: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    z-index: 99;
+}
+/*---------header close----------*/
+/*-----------header-top------------*/
+.header-top {
+    padding: 20px 0px 15px 0px;
+    background: rgba(0,179,203,255);
+}
+.left_info ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.left_info a {
+    color: #fffefe;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.left_info i.fa {
+    font-size: 19px;
+    color: #fff;
+    padding-right: 10px;
+}
+
+.right_info p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0;
+}
+
+.left_info {
+    text-align: right;
+}
+
+.right_info i.fa {
+    font-size: 26px;
+    margin-right: 10px;
+    position: relative;
+    bottom: -4px;
+}
+
+header i.fa.fa-mobile {
+    bottom: -4px;
+    font-size: 26px;
+    position: relative;
+    border: 40px;
+    font-weight: 500;
+}
+
+.left_info ul li:last-child {
+    margin: 0px !IMPORTANT;
+}
+.header-main {
+    padding: 21px 0;
+    border-top: 1px solid #424242;
+}
+/*-----------header-top Close------------*/
+/*-----------header-menu------------*/
+nav#cssmenu ul {
+    float: right;
+    margin-top: 13px;
+}
+.logo{position:relative;z-index:123;padding:10px;font:18px verdana;color:#6DDB07;float:left;}
+.logo img {
+    max-width: 250px;
+}
+.logo a{color:#6DDB07;}
+#cssmenu,#cssmenu ul,#cssmenu ul li,#cssmenu ul li a,#cssmenu #head-mobile{color: black; border:0;list-style:none;line-height:1;display:block;position:relative;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+#cssmenu:after,#cssmenu > ul:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}
+#cssmenu #head-mobile{display:none}
+#cssmenu > ul > li{float:left}
+#cssmenu > ul > li > a {
+    padding: 9px 17px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: white;
+}
+#cssmenu > ul > li:hover > a, #cssmenu ul li.active a {
+    color: black;
+}
+#cssmenu > ul > li:hover, #cssmenu ul li.active:hover, #cssmenu ul li.active, #cssmenu ul li.has-sub.active:hover {
+    background: rgba(0,179,203,255)!important;
+    -webkit-transition: background .3s ease;
+    -ms-transition: background .3s ease;
+    transition: background .3s ease;
+}
+#cssmenu > ul > li.has-sub > a{padding-right:30px}
+#cssmenu > ul > li.has-sub > a:after{position:absolute;top:17px;right:11px;width:8px;height:2px;display:block;background:#ddd;content:''}
+#cssmenu > ul > li.has-sub > a:before {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    display: block;
+    width: 2px;
+    height: 8px;
+    background: #ddd;
+    content: '';
+    -webkit-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+#cssmenu > ul > li.has-sub:hover > a:before{top:23px;height:0}
+#cssmenu ul ul {
+    position: absolute;
+    left: -9999px;
+    margin-top: 0;
+}
+#cssmenu ul ul li{height:0;-webkit-transition:all .25s ease;-ms-transition:all .25s ease;background:#333;transition:all .25s ease}
+#cssmenu ul ul li:hover{}
+#cssmenu li:hover > ul{left:auto}
+#cssmenu li:hover > ul > li{height:35px}
+#cssmenu ul ul ul{margin-left:100%;top:0}
+#cssmenu ul ul li a {
+    border-bottom: 1px solid rgba(150,150,150,0.15);
+    padding: 11px 15px;
+    width: 190px;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0,179,203,255);
+    font-weight: 400;
+}
+#cssmenu ul ul li:last-child > a,#cssmenu ul ul li.last-item > a{border-bottom:0}
+#cssmenu ul ul li:hover > a,#cssmenu ul ul li a:hover{color:#fff}
+#cssmenu ul ul li.has-sub > a:after{position:absolute;top:16px;right:11px;width:8px;height:2px;display:block;background:#ddd;content:''}
+#cssmenu ul ul li.has-sub > a:before{position:absolute;top:13px;right:14px;display:block;width:2px;height:8px;background:#ddd;content:'';-webkit-transition:all .25s ease;-ms-transition:all .25s ease;transition:all .25s ease}
+#cssmenu ul ul > li.has-sub:hover > a:before{top:17px;height:0}
+#cssmenu ul ul li.has-sub:hover,#cssmenu ul li.has-sub ul li.has-sub ul li:hover{background:#363636;}
+#cssmenu ul ul ul li.active a{border-left:1px solid #333}
+#cssmenu > ul > li.has-sub > ul > li.active > a,#cssmenu > ul ul > li.has-sub > ul > li.active> a{border-top:1px solid #333}
+
+@media screen and (max-width:991px){
+.logo{position:absolute;top:0;left: 0;width:100%;height:46px;text-align:center;padding:10px 0 0 0 ;float:none}
+.logo2{display:none}
+nav{width:100%;}
+#cssmenu{width:100%}
+#cssmenu ul{width:100%;display:none}
+#cssmenu ul li {
+    width: 100%;
+    border-top: 1px solid #444;
+    float: left;
+}
+#cssmenu ul li:hover{
+    background: transparent !important;
+}
+#cssmenu ul ul li,#cssmenu li:hover > ul > li{height:auto}
+#cssmenu ul li a,#cssmenu ul ul li a{width:100%;border-bottom:0}
+#cssmenu ul ul li a{padding-left:25px}
+#cssmenu ul ul li{background:#333!important;}
+#cssmenu ul ul li:hover{background:#363636!important}
+#cssmenu ul ul ul li a{padding-left:35px}
+#cssmenu ul ul li a{color:#ddd;background:none}
+#cssmenu ul ul li:hover > a,#cssmenu ul ul li.active > a{color:#fff}
+#cssmenu ul ul,#cssmenu ul ul ul{position:relative;left:0;width:100%;margin:0;text-align:left}
+#cssmenu > ul > li.has-sub > a:after,#cssmenu > ul > li.has-sub > a:before,#cssmenu ul ul > li.has-sub > a:after,#cssmenu ul ul > li.has-sub > a:before{display:none}
+#cssmenu #head-mobile{display:block;padding:23px;color:black;font-size:12px;font-weight:700}
+.button{width:55px;height:46px;position:absolute;right:0;top:0;cursor:pointer;z-index: 12399994;}
+.button:after{position:absolute;top:22px;right:20px;display:block;height:8px;width:20px;border-top:2px solid #dddddd;border-bottom:2px solid #dddddd;content:''}
+.button:before{-webkit-transition:all .3s ease;-ms-transition:all .3s ease;transition:all .3s ease;position:absolute;top:16px;right:20px;display:block;height:2px;width:20px;background:#ddd;content:''}
+.button.menu-opened:after{-webkit-transition:all .3s ease;-ms-transition:all .3s ease;transition:all .3s ease;top:23px;border:0;height:2px;width:19px;background:#fff;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg)}
+.button.menu-opened:before{top:23px;background:#fff;width:19px;-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg)}
+#cssmenu .submenu-button{position:absolute;z-index:99;right:0;top:0;display:block;border-left:1px solid #444;height:46px;width:46px;cursor:pointer}
+#cssmenu .submenu-button.submenu-opened{background:#262626}
+#cssmenu ul ul .submenu-button{height:34px;width:34px}
+#cssmenu .submenu-button:after{position:absolute;top:22px;right:19px;width:8px;height:2px;display:block;background:#ddd;content:''}
+#cssmenu ul ul .submenu-button:after{top:15px;right:13px}
+#cssmenu .submenu-button.submenu-opened:after{background:#fff}
+#cssmenu .submenu-button:before{position:absolute;top:19px;right:22px;display:block;width:2px;height:8px;background:#ddd;content:''}
+#cssmenu ul ul .submenu-button:before{top:12px;right:16px}
+#cssmenu .submenu-button.submenu-opened:before{display:none}
+#cssmenu ul ul ul li.active a{border-left:none}
+#cssmenu > ul > li.has-sub > ul > li.active > a,#cssmenu > ul ul > li.has-sub > ul > li.active > a{border-top:none}
+}
+
+img{
+    width: 100%;
+}
+div#slider-home .carousel-item::before {
+    background: #0000005c;
+    content: "";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+#slider-home h3 {
+    text-transform: capitalize;
+    font-size: 50px;
+}
+
+#slider-home p {
+    font-size: 23px;
+}
+
+#slider-home .btn {
+    background: rgba(0,179,203,255);
+    color: #fff;
+    padding: 12px 30px !important;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#slider-home .btn:hover{
+    background: #ffffff;
+    color:rgba(0,179,203,255);
+}
+
+
+
+</style>
+
+
+<body>
+    <form method="post" action="./" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEwNTI1NjY0MjEPZBYCZg9kFgQCAQ9kFgQCBw8WAh4HY29udGVudAUMRW5vdmEgUGhhcm1hZAIIDxYCHwAFDEVub3ZhIFBoYXJtYWQCAw9kFgJmD2QWBAIBDxYCHgtfIUl0ZW1Db3VudAICFgRmD2QWAmYPFQIcY2xhc3M9ImNhcm91c2VsLWl0ZW0gYWN0aXZlIjEvVXBsb2FkL0Jhbm5lci8xMjA0MjAxOF8xMTM3MjhfNDE3MThfYmFubmVyXzIuanBnZAIBD2QWAmYPFQIVY2xhc3M9ImNhcm91c2VsLWl0ZW0iMS9VcGxvYWQvQmFubmVyLzEyMDQyMDE4XzExMzcyOF80MTcxOF9iYW5uZXJfMi5qcGdkAgMPFgIfAQIVFipmD2QWAmYPFQM9L1VwbG9hZC9Qcm9kdWN0LzAzMDcyMDIxXzA4MzIxNF81MzI5Nl9pbWctMjAyMTA3MDItd2EwMDI4LmpwZz0vVXBsb2FkL1Byb2R1Y3QvMDMwNzIwMjFfMDgzMjE0XzUzMjk2X2ltZy0yMDIxMDcwMi13YTAwMjguanBnH2luamVjdGlvbnMvbmFuZHJvbG9uZS1kZWNhbm9hdGVkAgEPZBYCZg8VAz0vVXBsb2FkL1Byb2R1Y3QvMDMwNzIwMjFfMDgzNzA0XzMxNzI4X2ltZy0yMDIxMDcwMi13YTAwMTIuanBnPS9VcGxvYWQvUHJvZHVjdC8wMzA3MjAyMV8wODM3MDRfMzE3MjhfaW1nLTIwMjEwNzAyLXdhMDAxMi5qcGcfaW5qZWN0aW9ucy90cmVuYm9sb25lLWVuYW50aGF0ZWQCAg9kFgJmDxUDPS9VcGxvYWQvUHJvZHVjdC8wMzA3MjAyMV8wODQwMzJfNjU0OTdfaW1nLTIwMjEwNzAyLXdhMDAyNy5qcGc9L1VwbG9hZC9Qcm9kdWN0LzAzMDcyMDIxXzA4NDAzMl82NTQ5N19pbWctMjAyMTA3MDItd2EwMDI3LmpwZyJpbmplY3Rpb25zL2Ryb3N0YW5vbG9uZS1wcm9waW9uYXRlZAIDD2QWAmYPFQM9L1VwbG9hZC9Qcm9kdWN0LzAzMDcyMDIxXzA4NDExM180ODQ2OF9pbWctMjAyMTA3MDItd2EwMDIzLmpwZz0vVXBsb2FkL1Byb2R1Y3QvMDMwNzIwMjFfMDg0MTEzXzQ4NDY4X2ltZy0yMDIxMDcwMi13YTAwMjMuanBnImluamVjdGlvbnMvdGVzdG9zdGVyb25lLXByb3Bpb25hdGVkAgQPZBYCZg8VAz0vVXBsb2FkL1Byb2R1Y3QvMDMwNzIwMjFfMDg0MTU5XzEyNjUxX2ltZy0yMDIxMDcwMi13YTAwMjQuanBnPS9VcGxvYWQvUHJvZHVjdC8wMzA3MjAyMV8wODQxNTlfMTI2NTFfaW1nLTIwMjEwNzAyLXdhMDAyNC5qcGcVaW5qZWN0aW9ucy9zdGFub3pvbG9sZAIFD2QWAmYPFQM9L1VwbG9hZC9Qcm9kdWN0LzAzMDcyMDIxXzA4NDI0M181OTUxM19pbWctMjAyMTA3MDItd2EwMDEzLmpwZz0vVXBsb2FkL1Byb2R1Y3QvMDMwNzIwMjFfMDg0MjQzXzU5NTEzX2ltZy0yMDIxMDcwMi13YTAwMTMuanBnHWluamVjdGlvbnMvdHJlbmJvbG9uZS1hY2V0YXRlZAIGD2QWAmYPFQM9L1VwbG9hZC9Qcm9kdWN0LzAzMDcyMDIxXzA4NDMyNV84MjEyNV9pbWctMjAyMTA3MDItd2EwMDA5LmpwZz0vVXBsb2FkL1Byb2R1Y3QvMDMwNzIwMjFfMDg0MzI1XzgyMTI1X2ltZy0yMDIxMDcwMi13YTAwMDkuanBnIWluamVjdGlvbnMvYm9sZGVub25lLXVuZGVjeWxlbmF0ZWQCBw9kFgJmDxUDPS9VcGxvYWQvUHJvZHVjdC8wMzA3MjAyMV8wODQzNTRfNjE5NThfaW1nLTIwMjEwNzAyLXdhMDAxNC5qcGc9L1VwbG9hZC9Qcm9kdWN0LzAzMDcyMDIxXzA4NDM1NF82MTk1OF9pbWctMjAyMTA3MDItd2EwMDE0LmpwZx9pbmplY3Rpb25zL3Rlc3Rvc3Rlcm9uZS1taXh0dXJlZAIID2QWAmYPFQM9L1VwbG9hZC9Qcm9kdWN0LzAzMDcyMDIxXzA4NDQyMV81NzYxNF9pbWctMjAyMTA3MDItd2EwMDIyLmpwZz0vVXBsb2FkL1Byb2R1Y3QvMDMwNzIwMjFfMDg0NDIxXzU3NjE0X2ltZy0yMDIxMDcwMi13YTAwMjIuanBnIWluamVjdGlvbnMvdGVzdG9zdGVyb25lLWN5cGlvbmF0ZWQCCQ9kFgJmDxUDPS9VcGxvYWQvUHJvZHVjdC8wMzA3MjAyMV8wODQ1MDFfNDc3MzlfaW1nLTIwMjEwNzAyLXdhMDAxNS5qcGc9L1VwbG9hZC9Qcm9kdWN0LzAzMDcyMDIxXzA4NDUwMV80NzczOV9pbWctMjAyMTA3MDItd2EwMDE1LmpwZyFpbmplY3Rpb25zL3Rlc3Rvc3Rlcm9uZS1lbmFudGhhdGVkAgoPZBYCZg8VAz0vVXBsb2FkL1Byb2R1Y3QvMDMwNzIwMjFfMDkxOTMzXzgyNDQyX2ltZy0yMDIxMDcwMi13YTAwMTguanBnPS9VcGxvYWQvUHJvZHVjdC8wMzA3MjAyMV8wOTE5MzNfODI0NDJfaW1nLTIwMjEwNzAyLXdhMDAxOC5qcGcUdGFibGV0cy90dXJhbmFib2wtMTBkAgsPZBYCZg8VAz0vVXBsb2FkL1Byb2R1Y3QvMDMwNzIwMjFfMTAwNjA0XzE3NDE5X2ltZy0yMDIxMDcwMi13YTAwMTkuanBnPS9VcGxvYWQvUHJvZHVjdC8wMzA3MjAyMV8xMDA2MDRfMTc0MTlfaW1nLTIwMjEwNzAyLXdhMDAxOS5qcGcTdGFibGV0cy9hbmFwb2xvbi01MGQCDA9kFgJmDxUDPS9VcGxvYWQvUHJvZHVjdC8wMzA3MjAyMV8wOTE5NTlfNjk1NDJfaW1nLTIwMjEwNzAyLXdhMDAyMC5qcGc9L1VwbG9hZC9Qcm9kdWN0LzAzMDcyMDIxXzA5MTk1OV82OTU0Ml9pbWctMjAyMTA3MDItd2EwMDIwLmpwZxZ0YWJsZXRzL2RpYW5hYm9sLTEwLTkzZAIND2QWAmYPFQM9L1VwbG9hZC9Qcm9kdWN0LzAzMDcyMDIxXzEwMTE1NV84NDI2OV9pbWctMjAyMTA3MDItd2EwMDIxLmpwZz0vVXBsb2FkL1Byb2R1Y3QvMDMwNzIwMjFfMTAxMTU1Xzg0MjY5X2ltZy0yMDIxMDcwMi13YTAwMjEuanBnEXRhYmxldHMvYW5hdmFyLTEwZAIOD2QWAmYPFQM9L1VwbG9hZC9Qcm9kdWN0LzAzMDcyMDIxXzEwMTIxOV8zNjQ1NF9pbWctMjAyMTA3MDItd2EwMDE3LmpwZz0vVXBsb2FkL1Byb2R1Y3QvMDMwNzIwMjFfMTAxMjE5XzM2NDU0X2ltZy0yMDIxMDcwMi13YTAwMTcuanBnEnRhYmxldHMvc3Ryb21iYS0xMGQCDw9kFgJmDxUDPS9VcGxvYWQvUHJvZHVjdC8wMzA3MjAyMV8xMDEzMjlfODIyMTZfaW1nLTIwMjEwNzAyLXdhMDAxNi5qcGc9L1VwbG9hZC9Qcm9kdWN0LzAzMDcyMDIxXzEwMTMyOV84MjIxNl9pbWctMjAyMTA3MDItd2EwMDE2LmpwZw90YWJsZXRzL2NsZW4tNDBkAhAPZBYCZg8VAz0vVXBsb2FkL1Byb2R1Y3QvMDMwNzIwMjFfMTAxOTI1XzM4NjY0X2ltZy0yMDIxMDcwMi13YTAwMTAuanBnPS9VcGxvYWQvUHJvZHVjdC8wMzA3MjAyMV8xMDE5MjVfMzg2NjRfaW1nLTIwMjEwNzAyLXdhMDAxMC5qcGcUaW5qZWN0aW9ucy9wYXJhYm9sYW5kAhEPZBYCZg8VAxAvVXBsb2FkL1Byb2R1Y3QvEC9VcGxvYWQvUHJvZHVjdC8YdGFibGV0cy9vcmlnaW5hbC1wcm9kdWN0ZAISD2QWAmYPFQM9L1VwbG9hZC9Qcm9kdWN0LzAzMDcyMDIxXzEwMTg0Nl8yMzE2OF9pbWctMjAyMTA3MDItd2EwMDI2LmpwZz0vVXBsb2FkL1Byb2R1Y3QvMDMwNzIwMjFfMTAxODQ2XzIzMTY4X2ltZy0yMDIxMDcwMi13YTAwMjYuanBnIWluamVjdGlvbnMvZHJvc3Rhbm9sb25lLWVuYW50aGF0ZWQCEw9kFgJmDxUDEC9VcGxvYWQvUHJvZHVjdC8QL1VwbG9hZC9Qcm9kdWN0LyZpbmplY3Rpb25zL25hbmRyb2xvbmUtcGhlbnlscHJvcGlvbmF0ZWQCFA9kFgJmDxUDEC9VcGxvYWQvUHJvZHVjdC8QL1VwbG9hZC9Qcm9kdWN0LylpbmplY3Rpb25zL25hbmRyb2xvbmUtcGhlbnlscHJvcGlvbmF0ZS0xNGRkuu5VGn7p/ff9xRMXc1tCugcnPo2zIsXyuhge0nU4Qgk=">
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334">
+</div>
+        <div class="main-page">
+            <header>
+                <div class="header-top">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col">
+                                <div class="brk-call-us brk-header__item">
+                                    <a target="_blank" href="mailto:info@nordiclabs.net" >info@nordiclabs.net</a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                        <div class="brk-call-us brk-header__item">
+                                            <a target="_blank" href="https://instagram.com/nordiclabs" >facebook/nordiclabs</a>
+                                        </div>
+                            </div>
+                            <div class="col">
+                                        <div class="brk-call-us brk-header__item">
+                                            <a target="_blank" href="https://instagram.com/nordiclabs" >instagram/nordiclabs</a>
+                                        </div>
+                            </div>
+                            <div class="col">
+                                <div class="brk-call-us brk-header__item">
+                                    <a href="{% url 'mainApp:homeEn' %}" >EN</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="header-main">
+                    <div class="container">
+                        <nav id='cssmenu'>
+                            <div class="logo">
+                                <a href="/"><img src="/static/img/logo2.png"></a>
+                            </div>
+
+
+                            <div id="head-mobile"></div>
+                            <div class="button" ></div>
+                            <ul>
+                                <li class='active'><a href='#'>ANASAYFA</a></li>
+                                <li><a href='#'>ÜRÜNLER</a>
+                                    <ul>
+                                        <li><a href='#'>İĞNELER</a></li>
+                                        <li><a href='#'>TABLETLER</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="{% url 'mainApp:contactEn' %}">İLETİŞİM</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+
+
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br>
+
+
+	  <div class="container">
+        <section>
+            <div class="text-center mb-50">
+                <h2 class="font__family-montserrat font__weight-bold font__size-48 line__height-52 mt-30 mb-20 brk-library-rendered" data-brk-library="component__title">Bütün Ürünler</h2>
+                <div class="divider-cross wow zoomIn brk-library-rendered" data-brk-library="component__title" style="visibility: visible; animation-name: zoomIn;">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class=" mb-50">
+                <div class="row brk-gutters-5">
+
+
+
+
+
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="brs-portfolio-categories-item brk-library-rendered" data-brk-library="component__portfolio_category,fancybox">
+                                    <img src="/static/img/products/prd1.jpeg" class="brs-portfolio-categories-item__img" alt="alt">
+                                    <div class="brs-portfolio-categories-item__overlay brk-base-bg-12">
+                                    </div>
+                                    <div class="brs-portfolio-categories-item__buttons">
+                                        <a href="/static/img/products/prd1.jpeg" class="brs-portfolio-categories-item__btn fancybox rendered" aria-label="search"><i class="fal fa-search brs-portfolio-categories-item__btn__icon"></i></a>
+                                        <a href="/en/products/injections/nandrolone-decanoate" class="brs-portfolio-categories-item__btn" aria-label="link"><i class="fal fa-link brs-portfolio-categories-item__btn__icon"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="brs-portfolio-categories-item brk-library-rendered" data-brk-library="component__portfolio_category,fancybox">
+                                    <img src="/Upload/Product/03072021_083704_31728_img-20210702-wa0012.jpg" class="brs-portfolio-categories-item__img" alt="alt">
+                                    <div class="brs-portfolio-categories-item__overlay brk-base-bg-12">
+                                    </div>
+                                    <div class="brs-portfolio-categories-item__buttons">
+                                        <a href="/Upload/Product/03072021_083704_31728_img-20210702-wa0012.jpg" class="brs-portfolio-categories-item__btn fancybox rendered" aria-label="search"><i class="fal fa-search brs-portfolio-categories-item__btn__icon"></i></a>
+                                        <a href="/en/products/injections/trenbolone-enanthate" class="brs-portfolio-categories-item__btn" aria-label="link"><i class="fal fa-link brs-portfolio-categories-item__btn__icon"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="brs-portfolio-categories-item brk-library-rendered" data-brk-library="component__portfolio_category,fancybox">
+                                    <img src="/Upload/Product/03072021_084032_65497_img-20210702-wa0027.jpg" class="brs-portfolio-categories-item__img" alt="alt">
+                                    <div class="brs-portfolio-categories-item__overlay brk-base-bg-12">
+                                    </div>
+                                    <div class="brs-portfolio-categories-item__buttons">
+                                        <a href="/Upload/Product/03072021_084032_65497_img-20210702-wa0027.jpg" class="brs-portfolio-categories-item__btn fancybox rendered" aria-label="search"><i class="fal fa-search brs-portfolio-categories-item__btn__icon"></i></a>
+                                        <a href="/en/products/injections/drostanolone-propionate" class="brs-portfolio-categories-item__btn" aria-label="link"><i class="fal fa-link brs-portfolio-categories-item__btn__icon"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="brs-portfolio-categories-item brk-library-rendered" data-brk-library="component__portfolio_category,fancybox">
+                                    <img src="/Upload/Product/03072021_084113_48468_img-20210702-wa0023.jpg" class="brs-portfolio-categories-item__img" alt="alt">
+                                    <div class="brs-portfolio-categories-item__overlay brk-base-bg-12">
+                                    </div>
+                                    <div class="brs-portfolio-categories-item__buttons">
+                                        <a href="/Upload/Product/03072021_084113_48468_img-20210702-wa0023.jpg" class="brs-portfolio-categories-item__btn fancybox rendered" aria-label="search"><i class="fal fa-search brs-portfolio-categories-item__btn__icon"></i></a>
+                                        <a href="/en/products/injections/testosterone-propionate" class="brs-portfolio-categories-item__btn" aria-label="link"><i class="fal fa-link brs-portfolio-categories-item__btn__icon"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="brs-portfolio-categories-item brk-library-rendered" data-brk-library="component__portfolio_category,fancybox">
+                                    <img src="/Upload/Product/03072021_084159_12651_img-20210702-wa0024.jpg" class="brs-portfolio-categories-item__img" alt="alt">
+                                    <div class="brs-portfolio-categories-item__overlay brk-base-bg-12">
+                                    </div>
+                                    <div class="brs-portfolio-categories-item__buttons">
+                                        <a href="/Upload/Product/03072021_084159_12651_img-20210702-wa0024.jpg" class="brs-portfolio-categories-item__btn fancybox rendered" aria-label="search"><i class="fal fa-search brs-portfolio-categories-item__btn__icon"></i></a>
+                                        <a href="/en/products/injections/stanozolol" class="brs-portfolio-categories-item__btn" aria-label="link"><i class="fal fa-link brs-portfolio-categories-item__btn__icon"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="brs-portfolio-categories-item brk-library-rendered" data-brk-library="component__portfolio_category,fancybox">
+                                    <img src="/Upload/Product/03072021_084243_59513_img-20210702-wa0013.jpg" class="brs-portfolio-categories-item__img" alt="alt">
+                                    <div class="brs-portfolio-categories-item__overlay brk-base-bg-12">
+                                    </div>
+                                    <div class="brs-portfolio-categories-item__buttons">
+                                        <a href="/Upload/Product/03072021_084243_59513_img-20210702-wa0013.jpg" class="brs-portfolio-categories-item__btn fancybox rendered" aria-label="search"><i class="fal fa-search brs-portfolio-categories-item__btn__icon"></i></a>
+                                        <a href="/en/products/injections/trenbolone-acetate" class="brs-portfolio-categories-item__btn" aria-label="link"><i class="fal fa-link brs-portfolio-categories-item__btn__icon"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="brs-portfolio-categories-item brk-library-rendered" data-brk-library="component__portfolio_category,fancybox">
+                                    <img src="/Upload/Product/03072021_084325_82125_img-20210702-wa0009.jpg" class="brs-portfolio-categories-item__img" alt="alt">
+                                    <div class="brs-portfolio-categories-item__overlay brk-base-bg-12">
+                                    </div>
+                                    <div class="brs-portfolio-categories-item__buttons">
+                                        <a href="/Upload/Product/03072021_084325_82125_img-20210702-wa0009.jpg" class="brs-portfolio-categories-item__btn fancybox rendered" aria-label="search"><i class="fal fa-search brs-portfolio-categories-item__btn__icon"></i></a>
+                                        <a href="/en/products/injections/boldenone-undecylenate" class="brs-portfolio-categories-item__btn" aria-label="link"><i class="fal fa-link brs-portfolio-categories-item__btn__icon"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="brs-portfolio-categories-item brk-library-rendered" data-brk-library="component__portfolio_category,fancybox">
+                                    <img src="/Upload/Product/03072021_084354_61958_img-20210702-wa0014.jpg" class="brs-portfolio-categories-item__img" alt="alt">
+                                    <div class="brs-portfolio-categories-item__overlay brk-base-bg-12">
+                                    </div>
+                                    <div class="brs-portfolio-categories-item__buttons">
+                                        <a href="/Upload/Product/03072021_084354_61958_img-20210702-wa0014.jpg" class="brs-portfolio-categories-item__btn fancybox rendered" aria-label="search"><i class="fal fa-search brs-portfolio-categories-item__btn__icon"></i></a>
+                                        <a href="/en/products/injections/testosterone-mixture" class="brs-portfolio-categories-item__btn" aria-label="link"><i class="fal fa-link brs-portfolio-categories-item__btn__icon"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="brs-portfolio-categories-item brk-library-rendered" data-brk-library="component__portfolio_category,fancybox">
+                                    <img src="/Upload/Product/03072021_084421_57614_img-20210702-wa0022.jpg" class="brs-portfolio-categories-item__img" alt="alt">
+                                    <div class="brs-portfolio-categories-item__overlay brk-base-bg-12">
+                                    </div>
+                                    <div class="brs-portfolio-categories-item__buttons">
+                                        <a href="/Upload/Product/03072021_084421_57614_img-20210702-wa0022.jpg" class="brs-portfolio-categories-item__btn fancybox rendered" aria-label="search"><i class="fal fa-search brs-portfolio-categories-item__btn__icon"></i></a>
+                                        <a href="/en/products/injections/testosterone-cypionate" class="brs-portfolio-categories-item__btn" aria-label="link"><i class="fal fa-link brs-portfolio-categories-item__btn__icon"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="brs-portfolio-categories-item brk-library-rendered" data-brk-library="component__portfolio_category,fancybox">
+                                    <img src="/Upload/Product/03072021_084501_47739_img-20210702-wa0015.jpg" class="brs-portfolio-categories-item__img" alt="alt">
+                                    <div class="brs-portfolio-categories-item__overlay brk-base-bg-12">
+                                    </div>
+                                    <div class="brs-portfolio-categories-item__buttons">
+                                        <a href="/Upload/Product/03072021_084501_47739_img-20210702-wa0015.jpg" class="brs-portfolio-categories-item__btn fancybox rendered" aria-label="search"><i class="fal fa-search brs-portfolio-categories-item__btn__icon"></i></a>
+                                        <a href="/en/products/injections/testosterone-enanthate" class="brs-portfolio-categories-item__btn" aria-label="link"><i class="fal fa-link brs-portfolio-categories-item__btn__icon"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="brs-portfolio-categories-item brk-library-rendered" data-brk-library="component__portfolio_category,fancybox">
+                                    <img src="/Upload/Product/03072021_091933_82442_img-20210702-wa0018.jpg" class="brs-portfolio-categories-item__img" alt="alt">
+                                    <div class="brs-portfolio-categories-item__overlay brk-base-bg-12">
+                                    </div>
+                                    <div class="brs-portfolio-categories-item__buttons">
+                                        <a href="/Upload/Product/03072021_091933_82442_img-20210702-wa0018.jpg" class="brs-portfolio-categories-item__btn fancybox rendered" aria-label="search"><i class="fal fa-search brs-portfolio-categories-item__btn__icon"></i></a>
+                                        <a href="/en/products/tablets/turanabol-10" class="brs-portfolio-categories-item__btn" aria-label="link"><i class="fal fa-link brs-portfolio-categories-item__btn__icon"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="brs-portfolio-categories-item brk-library-rendered" data-brk-library="component__portfolio_category,fancybox">
+                                    <img src="/Upload/Product/03072021_100604_17419_img-20210702-wa0019.jpg" class="brs-portfolio-categories-item__img" alt="alt">
+                                    <div class="brs-portfolio-categories-item__overlay brk-base-bg-12">
+                                    </div>
+                                    <div class="brs-portfolio-categories-item__buttons">
+                                        <a href="/Upload/Product/03072021_100604_17419_img-20210702-wa0019.jpg" class="brs-portfolio-categories-item__btn fancybox rendered" aria-label="search"><i class="fal fa-search brs-portfolio-categories-item__btn__icon"></i></a>
+                                        <a href="/en/products/tablets/anapolon-50" class="brs-portfolio-categories-item__btn" aria-label="link"><i class="fal fa-link brs-portfolio-categories-item__btn__icon"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="brs-portfolio-categories-item brk-library-rendered" data-brk-library="component__portfolio_category,fancybox">
+                                    <img src="/Upload/Product/03072021_091959_69542_img-20210702-wa0020.jpg" class="brs-portfolio-categories-item__img" alt="alt">
+                                    <div class="brs-portfolio-categories-item__overlay brk-base-bg-12">
+                                    </div>
+                                    <div class="brs-portfolio-categories-item__buttons">
+                                        <a href="/Upload/Product/03072021_091959_69542_img-20210702-wa0020.jpg" class="brs-portfolio-categories-item__btn fancybox rendered" aria-label="search"><i class="fal fa-search brs-portfolio-categories-item__btn__icon"></i></a>
+                                        <a href="/en/products/tablets/dianabol-10-93" class="brs-portfolio-categories-item__btn" aria-label="link"><i class="fal fa-link brs-portfolio-categories-item__btn__icon"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="brs-portfolio-categories-item brk-library-rendered" data-brk-library="component__portfolio_category,fancybox">
+                                    <img src="/Upload/Product/03072021_101155_84269_img-20210702-wa0021.jpg" class="brs-portfolio-categories-item__img" alt="alt">
+                                    <div class="brs-portfolio-categories-item__overlay brk-base-bg-12">
+                                    </div>
+                                    <div class="brs-portfolio-categories-item__buttons">
+                                        <a href="/Upload/Product/03072021_101155_84269_img-20210702-wa0021.jpg" class="brs-portfolio-categories-item__btn fancybox rendered" aria-label="search"><i class="fal fa-search brs-portfolio-categories-item__btn__icon"></i></a>
+                                        <a href="/en/products/tablets/anavar-10" class="brs-portfolio-categories-item__btn" aria-label="link"><i class="fal fa-link brs-portfolio-categories-item__btn__icon"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="brs-portfolio-categories-item brk-library-rendered" data-brk-library="component__portfolio_category,fancybox">
+                                    <img src="/Upload/Product/03072021_101219_36454_img-20210702-wa0017.jpg" class="brs-portfolio-categories-item__img" alt="alt">
+                                    <div class="brs-portfolio-categories-item__overlay brk-base-bg-12">
+                                    </div>
+                                    <div class="brs-portfolio-categories-item__buttons">
+                                        <a href="/Upload/Product/03072021_101219_36454_img-20210702-wa0017.jpg" class="brs-portfolio-categories-item__btn fancybox rendered" aria-label="search"><i class="fal fa-search brs-portfolio-categories-item__btn__icon"></i></a>
+                                        <a href="/en/products/tablets/stromba-10" class="brs-portfolio-categories-item__btn" aria-label="link"><i class="fal fa-link brs-portfolio-categories-item__btn__icon"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="brs-portfolio-categories-item brk-library-rendered" data-brk-library="component__portfolio_category,fancybox">
+                                    <img src="/Upload/Product/03072021_101329_82216_img-20210702-wa0016.jpg" class="brs-portfolio-categories-item__img" alt="alt">
+                                    <div class="brs-portfolio-categories-item__overlay brk-base-bg-12">
+                                    </div>
+                                    <div class="brs-portfolio-categories-item__buttons">
+                                        <a href="/Upload/Product/03072021_101329_82216_img-20210702-wa0016.jpg" class="brs-portfolio-categories-item__btn fancybox rendered" aria-label="search"><i class="fal fa-search brs-portfolio-categories-item__btn__icon"></i></a>
+                                        <a href="/en/products/tablets/clen-40" class="brs-portfolio-categories-item__btn" aria-label="link"><i class="fal fa-link brs-portfolio-categories-item__btn__icon"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="brs-portfolio-categories-item brk-library-rendered" data-brk-library="component__portfolio_category,fancybox">
+                                    <img src="/Upload/Product/03072021_101925_38664_img-20210702-wa0010.jpg" class="brs-portfolio-categories-item__img" alt="alt">
+                                    <div class="brs-portfolio-categories-item__overlay brk-base-bg-12">
+                                    </div>
+                                    <div class="brs-portfolio-categories-item__buttons">
+                                        <a href="/Upload/Product/03072021_101925_38664_img-20210702-wa0010.jpg" class="brs-portfolio-categories-item__btn fancybox rendered" aria-label="search"><i class="fal fa-search brs-portfolio-categories-item__btn__icon"></i></a>
+                                        <a href="/en/products/injections/parabolan" class="brs-portfolio-categories-item__btn" aria-label="link"><i class="fal fa-link brs-portfolio-categories-item__btn__icon"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="brs-portfolio-categories-item brk-library-rendered" data-brk-library="component__portfolio_category,fancybox">
+                                    <img src="/Upload/Product/" class="brs-portfolio-categories-item__img" alt="alt">
+                                    <div class="brs-portfolio-categories-item__overlay brk-base-bg-12">
+                                    </div>
+                                    <div class="brs-portfolio-categories-item__buttons">
+                                        <a href="/Upload/Product/" class="brs-portfolio-categories-item__btn fancybox rendered" aria-label="search"><i class="fal fa-search brs-portfolio-categories-item__btn__icon"></i></a>
+                                        <a href="/en/products/tablets/original-product" class="brs-portfolio-categories-item__btn" aria-label="link"><i class="fal fa-link brs-portfolio-categories-item__btn__icon"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="brs-portfolio-categories-item brk-library-rendered" data-brk-library="component__portfolio_category,fancybox">
+                                    <img src="/Upload/Product/03072021_101846_23168_img-20210702-wa0026.jpg" class="brs-portfolio-categories-item__img" alt="alt">
+                                    <div class="brs-portfolio-categories-item__overlay brk-base-bg-12">
+                                    </div>
+                                    <div class="brs-portfolio-categories-item__buttons">
+                                        <a href="/Upload/Product/03072021_101846_23168_img-20210702-wa0026.jpg" class="brs-portfolio-categories-item__btn fancybox rendered" aria-label="search"><i class="fal fa-search brs-portfolio-categories-item__btn__icon"></i></a>
+                                        <a href="/en/products/injections/drostanolone-enanthate" class="brs-portfolio-categories-item__btn" aria-label="link"><i class="fal fa-link brs-portfolio-categories-item__btn__icon"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="brs-portfolio-categories-item brk-library-rendered" data-brk-library="component__portfolio_category,fancybox">
+                                    <img src="/Upload/Product/" class="brs-portfolio-categories-item__img" alt="alt">
+                                    <div class="brs-portfolio-categories-item__overlay brk-base-bg-12">
+                                    </div>
+                                    <div class="brs-portfolio-categories-item__buttons">
+                                        <a href="/Upload/Product/" class="brs-portfolio-categories-item__btn fancybox rendered" aria-label="search"><i class="fal fa-search brs-portfolio-categories-item__btn__icon"></i></a>
+                                        <a href="/en/products/injections/nandrolone-phenylpropionate" class="brs-portfolio-categories-item__btn" aria-label="link"><i class="fal fa-link brs-portfolio-categories-item__btn__icon"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+                </div>
+
+
+
+
+            </div>
+        </section>
+    </div>
+
+
+
+    <section class="pt-50 pb-30 bg-white">
+        <div class="text-center mb-50">
+            <h2 class="font__family-montserrat font__weight-bold font__size-48 line__height-52 mt-30 mb-20 brk-library-rendered" data-brk-library="component__title">Check Your Product</h2>
+            <p>
+                Write the code snippet on the product you purchased here. Here you can check whether the product is original or not.
+            </p>
+            <div class="divider-cross wow zoomIn brk-library-rendered" data-brk-library="component__title" style="visibility: visible; animation-name: zoomIn;">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5">
+
+                    <p class="brk-dark-font-color font__size-16 font__weight-normal line__height-26 mb-50">
+                        <img src="/static/img/logo2.png" alt="Nordic Labs" title="Nordic Labs">
+                    </p>
+
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-12 col-md-6 mt-50">
+                    <div class="form-group" id="pnlTemplate">
+                        <input class="form-control" id="txtCode" placeholder="Product Code">
+                        <p class="brk-dark-font-color font__size-16 font__weight-normal line__height-26 mb-25">
+                            <input type="submit" id="pnlBtn" onclick="return false;" value="Check it" style="background: #2b2b2b !important; color: #fff !important" class="btn btn-inside-out btn-lg btn-icon border-radius-0 font__family-open-sans font__weight-bold text-uppercase btn-icon-abs ml-0 mr-0 mb-0 w-100 brk-library-rendered rendered">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+            <footer class="brk-footer position-relative brk-library-rendered" data-brk-library="component__footer">
+                <div class="brk-footer__wrapper pt-30 mt-30 rendered" style="background: rgba(0,179,203,255) !important;">
+                    <span class="brk-abs-overlay"></span>
+                    <div class="container pb-30">
+                        <div class="row">
+                                    <div class="col-12 col-sm-6 col-lg-4 mt-50">
+                                        <a class="d-sm-inline-block d-block text-center">
+                                            <img src="/static/img/logo3.png" alt="alt">
+                                        </a>
+                                        <hr class="horiz-line mt-25">
+                                        <p class="brk-dark-font-color-3 font__family-open-sans font__size-14 line__height-24 mb-50 pr-lg-4 text-sm-left text-center" style="color: #fff;">
+                                             We are very pleased to announce that our brand has been awarded a prestigious Prime FitnessAward.
+                                        </p>
+                                    </div>
+
+                            <div class="col-12 col-sm-6 col-lg-4" style="padding-top: 54px !important;">
+                                <h6 class="brk-white-font-color font__family-open-sans font__size-24 line__height-32 text-center text-sm-left">Menu</h6>
+                                <hr class="horiz-line mt-25">
+                                <nav>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <ul class="d-flex flex-column font__family-open-sans  font__size-14 font__weight-normal line__height-16 text-sm-left text-center" style="color: #fff;">
+                                                <li class="mb-20"><a href="/">Home Page</a></li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="col-6">
+                                            <ul class="d-flex flex-column font__family-open-sans  font__size-14 font__weight-normal line__height-16 text-sm-left text-center" style="color: #fff;">
+                                                <li class="mb-20"><a href="/en/products/injections/">Injections</a></li>
+                                                <li class="mb-20"><a href="/en/products/tablets/">Tablets</a></li>
+                                                <li class="mb-20"><a href="{% url 'mainApp:contactEn' %}">Contact Us</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="col-12 col-sm-12 col-lg-4">
+                                <article class="brk-get-in-touch brk-get-in-touch_footer pt-40 pb-30 pl-30 pr-30 position-static position-lg-relative mt-xs-20 ">
+                                    <h6 class="font__family-montserrat font__size-28 font__weight-light line__height-35 text-uppercase pl-10">Contact
+                                        <br>
+                                        <span class="font__weight-bold">information</span></h6>
+                                    <div class="brk-form-strict brk-subscribe-mail brk-subscribe-mail_dark z-index-3 rendered">
+                                            <style>
+                                                .brk-form-wrap a:hover {
+                                                    color:#21a5a6 !important
+                                                }
+                                            </style>
+
+                                        <div class="brk-form-wrap">
+
+                                            <p class="font__family-open-sans font__weight-bold font__size-14 mb-15 pl-10">
+                                                <i class="brk-footer-icon text-middle fa fa-envelope line__height-24 " style="color: #282828"></i>
+                                                <a href="mailto:info@nordiclabs.net" class="show-inline-block">info@nordiclabs.net</a>
+                                            </p>
+                                             <p class="font__family-open-sans font__weight-bold font__size-14 mb-15 pl-10">
+                                                <a class="show-inline-block">Holmenveien 20, 0374 Oslo, Norway</a>
+                                            </p>
+                                        </div>
+                                        <div class="masterForm">
+                                            <a href="{% url 'mainApp:contactEn' %}" style="background: rgba(0, 179, 203, 255) !important;" class="btn btn-inside-out btn-lg btn-icon mt-30 border-radius-0 font__family-open-sans font__weight-bold text-uppercase btn-icon-abs ml-0 mr-0 mb-0 w-100 brk-library-rendered rendered" data-brk-library="component__button">
+                                                <span class="before">Contact</span><span class="text">Contact</span><span class="after">Contact</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </footer>
+
+        </div>
+
+        <script>
+            (function($) {
+            $.fn.menumaker = function(options) {
+                var cssmenu = $(this),
+                    settings = $.extend({
+                        format: "dropdown",
+                        sticky: false
+                    }, options);
+                return this.each(function() {
+                    $(this).find(".button").on('click', function() {
+                        $(this).toggleClass('menu-opened');
+                        var mainmenu = $(this).next('ul');
+                        if (mainmenu.hasClass('open')) {
+                            mainmenu.slideToggle().removeClass('open');
+                        } else {
+                            mainmenu.slideToggle().addClass('open');
+                            if (settings.format === "dropdown") {
+                                mainmenu.find('ul').show();
+                            }
+                        }
+                    });
+                    cssmenu.find('li ul').parent().addClass('has-sub');
+                    multiTg = function() {
+                        cssmenu.find(".has-sub").prepend('<span class="submenu-button"></span>');
+                        cssmenu.find('.submenu-button').on('click', function() {
+                            $(this).toggleClass('submenu-opened');
+                            if ($(this).siblings('ul').hasClass('open')) {
+                                $(this).siblings('ul').removeClass('open').slideToggle();
+                            } else {
+                                $(this).siblings('ul').addClass('open').slideToggle();
+                            }
+                        });
+                    };
+                    if (settings.format === 'multitoggle') multiTg();
+                    else cssmenu.addClass('dropdown');
+                    if (settings.sticky === true) cssmenu.css('position', 'fixed');
+                    resizeFix = function() {
+                        var mediasize = 1000;
+                        if ($(window).width() > mediasize) {
+                            cssmenu.find('ul').show();
+                        }
+                        if ($(window).width() <= mediasize) {
+                            cssmenu.find('ul').hide().removeClass('open');
+                        }
+                    };
+                    resizeFix();
+                    return $(window).on('resize', resizeFix);
+                });
+            };
+        })(jQuery);
+
+        (function($) {
+            $(document).ready(function() {
+                $("#cssmenu").menumaker({
+                    format: "multitoggle"
+                });
+            });
+        })(jQuery);
+
+
+        </script>
+
+
+
+        <a href="#top" id="toTop" style="display: none;"></a>
+        <script defer="defer" src="/static/js/scripts.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    </form>
+
+
+
+</body>
+</html>

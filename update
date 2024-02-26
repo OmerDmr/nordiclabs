@@ -1,0 +1,5 @@
+renk değişecek açık mavi- turkuaz tonları
+10000 adet kod:
+	kod: LPX + 8hane(rakam-harf)
+	kod: doğru ise 2 defa kontrol etme hakkı, 3.ye kod kullanıldı ibaresi
+	kod: hatalı ise hata mesajı
